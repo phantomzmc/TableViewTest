@@ -15,6 +15,8 @@
 		2AE778FA1F18854000870758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE778F81F18854000870758 /* LaunchScreen.storyboard */; };
 		2AE779051F18854000870758 /* TableViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE779041F18854000870758 /* TableViewTestTests.swift */; };
 		2AE779101F18854000870758 /* TableViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7790F1F18854000870758 /* TableViewTestUITests.swift */; };
+		2AE7791E1F18A72900870758 /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7791D1F18A72900870758 /* CellTableViewCell.swift */; };
+		2AE779201F18B59C00870758 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7791F1F18B59C00870758 /* SubViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2AE7790B1F18854000870758 /* TableViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE7790F1F18854000870758 /* TableViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTestUITests.swift; sourceTree = "<group>"; };
 		2AE779111F18854000870758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE7791D1F18A72900870758 /* CellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
+		2AE7791F1F18B59C00870758 /* SubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				2AE778EC1F18854000870758 /* AppDelegate.swift */,
 				2AE778EE1F18854000870758 /* ViewController.swift */,
+				2AE7791D1F18A72900870758 /* CellTableViewCell.swift */,
+				2AE7791F1F18B59C00870758 /* SubViewController.swift */,
 				2AE778F01F18854000870758 /* Main.storyboard */,
 				2AE778F61F18854000870758 /* Assets.xcassets */,
 				2AE778F81F18854000870758 /* LaunchScreen.storyboard */,
@@ -266,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AE778EF1F18854000870758 /* ViewController.swift in Sources */,
+				2AE7791E1F18A72900870758 /* CellTableViewCell.swift in Sources */,
+				2AE779201F18B59C00870758 /* SubViewController.swift in Sources */,
 				2AE778ED1F18854000870758 /* AppDelegate.swift in Sources */,
 				2AE778F51F18854000870758 /* TableViewTest.xcdatamodeld in Sources */,
 			);
