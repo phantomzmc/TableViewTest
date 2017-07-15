@@ -7,19 +7,35 @@
 //
 
 import UIKit
+import Kingfisher
 
 class SubViewController: UIViewController {
     
-    var data:String = ""
+    //var data:String = ""
+    var person:Person!
 
     @IBOutlet weak var dataLabel: UILabel!
+    @IBOutlet weak var datailLabel: UILabel!
+    @IBOutlet weak var ageLabel: UILabel!
+    @IBOutlet weak var lastnameLabel: UILabel!
     
+    @IBOutlet weak var photoImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        dataLabel.text = data
+        dataLabel.text = person.firstname
+        lastnameLabel.text = person.lastname
+        ageLabel.text = "\(person.age!)"
+        datailLabel.text = person.detail
         // Do any additional setup after loading the view.
+        
+        if let photoUrl = person?.photoUrl {
+            photoImageView.kf.setImage(with: URL(string:photoUrl))
+        }else{
+            photoImageView.image = UIImage(named: "feu")
+        }
+
     }
 
     override func didReceiveMemoryWarning() {
